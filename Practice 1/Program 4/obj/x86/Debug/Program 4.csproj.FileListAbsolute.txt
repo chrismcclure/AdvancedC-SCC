@@ -1,0 +1,29 @@
+c:\users\jk505087\Desktop\Program 4\Program 4\bin\Debug\Program 4.exe
+c:\users\jk505087\Desktop\Program 4\Program 4\bin\Debug\Program 4.pdb
+c:\users\jk505087\Desktop\Program 4\Program 4\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jk505087\Desktop\Program 4\Program 4\obj\x86\Debug\Program_4.Properties.Resources.resources
+c:\users\jk505087\Desktop\Program 4\Program 4\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\jk505087\Desktop\Program 4\Program 4\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\jk505087\Desktop\Program 4\Program 4\obj\x86\Debug\Program 4.exe
+c:\users\jk505087\Desktop\Program 4\Program 4\obj\x86\Debug\Program 4.pdb
+c:\users\jk505087\Desktop\Program 4\Program 4\obj\x86\Debug\Program_4.Form1.resources
+E:\SCC\C#\Program 4 C#\Program 4\Program 4\obj\x86\Debug\Program 4.exe
+E:\SCC\C#\Program 4 C#\Program 4\Program 4\obj\x86\Debug\Program 4.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\bin\Debug\Program 4.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\bin\Debug\Program 4.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\obj\x86\Debug\Program 4.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\obj\x86\Debug\Program_4.Form1.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\obj\x86\Debug\Program_4.Properties.Resources.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\obj\x86\Debug\Program 4.csproj.GenerateResource.Cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\obj\x86\Debug\Program 4.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\obj\x86\Debug\Program 4.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Program 4\Program 4\obj\x86\Debug\Program 4.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\bin\Debug\Program 4.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\bin\Debug\Program 4.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program_4.Form1.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program_4.Properties.Resources.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.csproj.GenerateResource.Cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.pdb
