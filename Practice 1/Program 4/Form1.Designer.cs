@@ -107,7 +107,6 @@
             this.piclogo.TabIndex = 0;
             this.piclogo.TabStop = false;
             this.piclogo.WaitOnLoad = true;
-            this.piclogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox1
             // 
@@ -161,16 +160,15 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(971, 38);
             this.txtName.TabIndex = 2;
-            this.txtName.Text = "Name";
             // 
             // lblStatusOut
             // 
             this.lblStatusOut.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblStatusOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatusOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStatusOut.Location = new System.Drawing.Point(1474, 1242);
             this.lblStatusOut.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblStatusOut.Name = "lblStatusOut";
-            this.lblStatusOut.Size = new System.Drawing.Size(1104, 55);
+            this.lblStatusOut.Size = new System.Drawing.Size(1104, 125);
             this.lblStatusOut.TabIndex = 12;
             // 
             // lblFlightInfoOut
@@ -187,7 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2608, 1464);
+            this.ClientSize = new System.Drawing.Size(2645, 1464);
             this.Controls.Add(this.lblFlightInfoOut);
             this.Controls.Add(this.lblStatusOut);
             this.Controls.Add(this.txtName);

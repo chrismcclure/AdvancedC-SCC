@@ -18,3 +18,4 @@ C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\P
 C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.csproj.CoreCompileInputs.cache
 C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.exe
 C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\obj\x86\Debug\Program 4.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice 1\Program 4\bin\Debug\Program 4.exe.config

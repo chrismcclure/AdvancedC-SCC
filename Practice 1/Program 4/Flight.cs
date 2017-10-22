@@ -3,13 +3,8 @@
  * Chris Mcclure 
  * airline reservation
  * 10/21/2017
+ * I didn't have to touch anything in this class.  Well written for usability.  :)
  */
-
- //Todo
- //wire up button to add to string
- //If the position isn't open, say so 
- //if all the seats are full, say so
- //Figure out how to get stuff to render correctly. 
 
 using System;
 using System.Collections.Generic;
