@@ -1,9 +1,15 @@
 ﻿
 /*
- * Chris McClure
+ * Chris Mcclure 
  * airline reservation
- * 10/11/17
+ * 10/21/2017
  */
+
+ //Todo
+ //wire up button to add to string
+ //If the position isn't open, say so 
+ //if all the seats are full, say so
+ //Figure out how to get stuff to render correctly. 
 
 using System;
 using System.Collections.Generic;

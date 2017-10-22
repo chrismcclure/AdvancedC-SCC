@@ -39,7 +39,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblStatusOut = new System.Windows.Forms.Label();
-            this.btnNameSubmit = new System.Windows.Forms.Button();
             this.lblFlightInfoOut = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.piclogo)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -103,7 +102,7 @@
             this.piclogo.Location = new System.Drawing.Point(0, 0);
             this.piclogo.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.piclogo.Name = "piclogo";
-            this.piclogo.Size = new System.Drawing.Size(693, 1248);
+            this.piclogo.Size = new System.Drawing.Size(693, 1464);
             this.piclogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.piclogo.TabIndex = 0;
             this.piclogo.TabStop = false;
@@ -126,29 +125,29 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(720, 613);
+            this.label3.Location = new System.Drawing.Point(709, 624);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(570, 58);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Step 2: Select Your Seat";
+            this.label3.Text = "Step 3: Select Your Seat";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(707, 911);
+            this.label4.Location = new System.Drawing.Point(709, 442);
             this.label4.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(582, 58);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Step 3: Enter Your Name";
+            this.label4.Text = "Step 2: Enter Your Name";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(707, 994);
+            this.label5.Location = new System.Drawing.Point(709, 1227);
             this.label5.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(612, 58);
@@ -157,32 +156,22 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(1605, 932);
+            this.txtName.Location = new System.Drawing.Point(1605, 460);
             this.txtName.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(748, 38);
+            this.txtName.Size = new System.Drawing.Size(971, 38);
             this.txtName.TabIndex = 2;
+            this.txtName.Text = "Name";
             // 
             // lblStatusOut
             // 
             this.lblStatusOut.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblStatusOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatusOut.Location = new System.Drawing.Point(1472, 1009);
+            this.lblStatusOut.Location = new System.Drawing.Point(1474, 1242);
             this.lblStatusOut.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblStatusOut.Name = "lblStatusOut";
             this.lblStatusOut.Size = new System.Drawing.Size(1104, 55);
             this.lblStatusOut.TabIndex = 12;
-            // 
-            // btnNameSubmit
-            // 
-            this.btnNameSubmit.Location = new System.Drawing.Point(2376, 928);
-            this.btnNameSubmit.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.btnNameSubmit.Name = "btnNameSubmit";
-            this.btnNameSubmit.Size = new System.Drawing.Size(200, 55);
-            this.btnNameSubmit.TabIndex = 3;
-            this.btnNameSubmit.Text = "Submit";
-            this.btnNameSubmit.UseVisualStyleBackColor = true;
-            this.btnNameSubmit.Click += new System.EventHandler(this.btnNameSubmit_Click);
             // 
             // lblFlightInfoOut
             // 
@@ -196,12 +185,10 @@
             // 
             // Form1
             // 
-            this.AcceptButton = this.btnNameSubmit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2608, 1248);
+            this.ClientSize = new System.Drawing.Size(2608, 1464);
             this.Controls.Add(this.lblFlightInfoOut);
-            this.Controls.Add(this.btnNameSubmit);
             this.Controls.Add(this.lblStatusOut);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label5);
@@ -213,8 +200,8 @@
             this.Controls.Add(this.piclogo);
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "SCC Airlines";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.piclogo)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -237,7 +224,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblStatusOut;
-        private System.Windows.Forms.Button btnNameSubmit;
         private System.Windows.Forms.Label lblFlightInfoOut;
     }
 }
