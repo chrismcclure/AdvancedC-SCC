@@ -9,6 +9,14 @@ using System.Windows.Forms;
 
 namespace Assignment1
 {
+
+  /*
+ * Chris Mcclure
+ * 10-29-2017
+ * Appliance Power Program
+ */
+
+
     public partial class Form1 : Form
     {
         //List of all apps

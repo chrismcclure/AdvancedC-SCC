@@ -3,6 +3,13 @@ using System.Linq;
 
 namespace Assignment1.CalculationsOfPower
 {
+
+    /*
+ * Chris Mcclure
+ * 10-29-2017
+ * Appliance Power Program
+ */
+
     public class Calculation
     {
 
