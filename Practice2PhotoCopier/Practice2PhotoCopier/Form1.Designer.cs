@@ -196,6 +196,7 @@
             this.btnFixJam.TabIndex = 13;
             this.btnFixJam.Text = "Magic Fix Button";
             this.btnFixJam.UseVisualStyleBackColor = true;
+            this.btnFixJam.Click += new System.EventHandler(this.btnFixJam_Click);
             // 
             // Form1
             // 
