@@ -1,0 +1,10 @@
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\bin\Debug\Practice2PhotoCopier.exe.config
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\bin\Debug\Practice2PhotoCopier.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\bin\Debug\Practice2PhotoCopier.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\obj\Debug\Practice2PhotoCopier.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\obj\Debug\Practice2PhotoCopier.Form1.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\obj\Debug\Practice2PhotoCopier.Properties.Resources.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\obj\Debug\Practice2PhotoCopier.csproj.GenerateResource.Cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\obj\Debug\Practice2PhotoCopier.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\obj\Debug\Practice2PhotoCopier.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Practice2PhotoCopier\Practice2PhotoCopier\obj\Debug\Practice2PhotoCopier.pdb
