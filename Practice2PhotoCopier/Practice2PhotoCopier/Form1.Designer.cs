@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNumberOfCopies = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnReplaceToner = new System.Windows.Forms.Button();
             this.txtPaperToAdd = new System.Windows.Forms.TextBox();
@@ -87,20 +87,21 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1825, 282);
+            this.label2.Location = new System.Drawing.Point(1718, 285);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 32);
+            this.label2.Size = new System.Drawing.Size(231, 32);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Cancel";
+            this.label2.Text = "Reset Everything";
             // 
-            // btnCancel
+            // btnReset
             // 
-            this.btnCancel.Location = new System.Drawing.Point(1964, 265);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(241, 64);
-            this.btnCancel.TabIndex = 6;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnReset.Location = new System.Drawing.Point(1964, 265);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(241, 64);
+            this.btnReset.TabIndex = 6;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnStart
             // 
@@ -110,6 +111,7 @@
             this.btnStart.TabIndex = 7;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnReplaceToner
             // 
@@ -119,6 +121,7 @@
             this.btnReplaceToner.TabIndex = 8;
             this.btnReplaceToner.Text = "Replace Toner";
             this.btnReplaceToner.UseVisualStyleBackColor = true;
+            this.btnReplaceToner.Click += new System.EventHandler(this.btnReplaceToner_Click);
             // 
             // txtPaperToAdd
             // 
@@ -135,6 +138,7 @@
             this.btnAddPaper.TabIndex = 10;
             this.btnAddPaper.Text = "Add Paper";
             this.btnAddPaper.UseVisualStyleBackColor = true;
+            this.btnAddPaper.Click += new System.EventHandler(this.btnAddPaper_Click);
             // 
             // label3
             // 
@@ -206,7 +210,7 @@
             this.Controls.Add(this.txtPaperToAdd);
             this.Controls.Add(this.btnReplaceToner);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNumberOfCopies);
             this.Controls.Add(this.label1);
@@ -231,7 +235,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNumberOfCopies;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnReplaceToner;
         private System.Windows.Forms.TextBox txtPaperToAdd;
