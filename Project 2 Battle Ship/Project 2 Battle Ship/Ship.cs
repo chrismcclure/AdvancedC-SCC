@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Project_2_Battle_Ship
 {
-    /*
+
+ /*
 * Chris Mcclure
 * 11-19-2017
 * Battle Ship Program
@@ -19,7 +20,9 @@ namespace Project_2_Battle_Ship
         Carrier,
         Battleship,
         Submarine,
-        Destroyer
+        Destroyer,
+        Destroyer2
+
     }
     #endregion
 
@@ -106,6 +109,9 @@ namespace Project_2_Battle_Ship
                     Spaces = 3;
                     break;
                 case ShipType.Destroyer:
+                    Spaces = 2;
+                    break;
+                case ShipType.Destroyer2:
                     Spaces = 2;
                     break;
                 default:

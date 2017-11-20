@@ -12,6 +12,14 @@ namespace Project_2_Battle_Ship
 {
     public partial class Form1 : Form
     {
+
+
+        //TODO
+        //Display sunk ships on main form
+        //When all ships are sunk, end game
+        //Make end game button
+
+
         #region fields
 
         private Sea _sea;
@@ -32,11 +40,15 @@ namespace Project_2_Battle_Ship
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            pnlButtons.Controls.Clear();
+
             //Create a list of ships
             List<Ship> ships = MakeListOfShips();
 
             //Initalize sea class and throw the shps into the constructor
             _sea = new Sea(ships);    
+
+
 
             //Create buttons will all the propteries on the UI
             pnlButtons.Controls.AddRange(_sea.Buttons.ToArray());      
@@ -70,7 +82,7 @@ namespace Project_2_Battle_Ship
             }
             if (cbxDestroyer2.Checked)
             {
-                ships.Add(new Ship(ShipType.Destroyer));
+                ships.Add(new Ship(ShipType.Destroyer2));
             }
             return ships;
         }
