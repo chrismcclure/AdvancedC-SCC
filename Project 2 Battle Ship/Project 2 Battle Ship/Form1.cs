@@ -20,7 +20,7 @@ namespace Project_2_Battle_Ship
         //Make end game button
 
 
-        #region fields
+        #region class fields
 
         private Sea _sea;
 
@@ -47,8 +47,6 @@ namespace Project_2_Battle_Ship
 
             //Initalize sea class and throw the shps into the constructor
             _sea = new Sea(ships);    
-
-
 
             //Create buttons will all the propteries on the UI
             pnlButtons.Controls.AddRange(_sea.Buttons.ToArray());      

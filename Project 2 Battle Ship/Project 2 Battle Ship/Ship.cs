@@ -22,8 +22,8 @@ namespace Project_2_Battle_Ship
         Submarine,
         Destroyer,
         Destroyer2
-
     }
+
     #endregion
 
 
@@ -36,21 +36,15 @@ namespace Project_2_Battle_Ship
         public int Spaces { get; private set; }
         public int Hits { get; private set; }
         public bool Sunk { get; private set; }
-        public bool Vertical { get; private set; }
-
-
-        //The only prop that can be set by another class
-        //The reason this class doesn't set it is, 
-        //Ship has no idea where other ships are or how big the board is
-        public IList<int> boardNumber { get; set; }
+        public bool Vertical { get; private set; }     
 
         #endregion
 
         #region class fields
+
         private static readonly Random rand = new Random();
+
         #endregion
-
-
 
         #region constructor
         //when creating a ship, the name is required
@@ -60,8 +54,7 @@ namespace Project_2_Battle_Ship
             Hits = 0;
             Sunk = false;
             SetSpaces();
-            SetVerticalAlignment();
-            boardNumber = new List<int>();
+            SetVerticalAlignment();          
         }
 
         #endregion
@@ -90,8 +83,7 @@ namespace Project_2_Battle_Ship
         {
           
             //Generates either 1 or 0. 
-            //1 = vertical and 0 = horizontal
-            //Tried to find a 
+            //1 = vertical and 0 = horizontal   
             Vertical = rand.Next(0, 2) == 1;
         }
 

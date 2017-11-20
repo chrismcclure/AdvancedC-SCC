@@ -28,6 +28,7 @@ namespace Project_2_Battle_Ship
         private readonly int _numberOfButtons = 400;
         private IDictionary<int, string> _buttonsWithShips;
         private static readonly Random rng = new Random();
+
         #endregion
 
 
@@ -53,8 +54,9 @@ namespace Project_2_Battle_Ship
             //Place each ship, one by one ¯\_(ツ)_/¯
             foreach (var ship in Ships)
             {                
-                //Create a list of purposed spots.  Initiallize with the first purposed spot
+                //Create a list of purposed spots.  
                 List<int> purposedSpots = new List<int>();
+
                 do
                 {
                     //random number between 0 and 399
@@ -89,11 +91,7 @@ namespace Project_2_Battle_Ship
                 foreach (var spot in purposedSpots)
                 {
                     _buttonsWithShips.Add(spot, ship.ShipClass.ToString());
-                }
-
-                //degbuging spots
-             // Debug.WriteLine($"{ship.ShipClass} is vertical:{ship.Vertical}with spaces {String.Join(",", purposedSpots.ToArray())}");             
-
+                }            
             }
         }
 
@@ -135,6 +133,8 @@ namespace Project_2_Battle_Ship
             {
                 //Make all the buttons and give them properties
                 Button button = new Button();
+
+                //Comment out. This is for testing
                 if (DoesButtonHaveShip(i))
                 {
                     button.Text = "X";
@@ -151,7 +151,6 @@ namespace Project_2_Battle_Ship
                 button.BackColor = Control.DefaultBackColor;
                 button.Font = new Font(button.Font.FontFamily, 5);
                 button.TabStop = false;
-
                 button.Tag = i;
 
 
@@ -161,10 +160,11 @@ namespace Project_2_Battle_Ship
                     addToY += 28;
                     counter = 0;
                 }
-                button.Location = new Point(locationOfButtons.Key + (counter * addToX), locationOfButtons.Value + addToY);
 
+                button.Location = new Point(locationOfButtons.Key + (counter * addToX), locationOfButtons.Value + addToY);
                 
                 Buttons.Add(button);
+
                 counter++;         
             }
         }
@@ -176,7 +176,6 @@ namespace Project_2_Battle_Ship
             int spotClicked = (int)clickedButton.Tag;
 
             
-
             //THIS IS THE MEAT.  The ship has been hit. Do stuff!!!
             if (DoesButtonHaveShip(spotClicked))
             {
@@ -194,7 +193,6 @@ namespace Project_2_Battle_Ship
             {
                 clickedButton.BackColor = Color.Blue;
             }
-
 
             clickedButton.Enabled = false;
             
