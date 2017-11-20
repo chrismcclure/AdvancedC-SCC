@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 /*
 * Chris Mcclure
@@ -19,19 +13,16 @@ namespace Project_2_Battle_Ship
     public partial class Form1 : Form
     {
         #region fields
+
         private Sea _sea;
 
         #endregion
-
 
         #region constructor
 
         public Form1()
         {
-            InitializeComponent();
-
-             _sea = new Sea();      //Initalize sea class    
-            pnlButtons.Controls.AddRange(_sea.Buttons.ToArray());      //add the buttons from see class to panel               
+            InitializeComponent();                      
         }
 
         #endregion
@@ -41,9 +32,15 @@ namespace Project_2_Battle_Ship
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            //Check and see what ships are select
-            //Make a list of ships
-            //Inject the ship into the constructor of sea to make game board
+            //Create a list of ships
+            List<Ship> ships = MakeListOfShips();
+
+            //Initalize sea class and throw the shps into the constructor
+            _sea = new Sea(ships);    
+
+            //Create buttons will all the propteries on the UI
+            pnlButtons.Controls.AddRange(_sea.Buttons.ToArray());      
+          
         }
 
         #endregion
@@ -51,8 +48,32 @@ namespace Project_2_Battle_Ship
 
         #region private methods
 
-
-        private L
+        private List<Ship> MakeListOfShips()
+        {
+            //Checks the checkboxes on UI and makes a ship if it is checked
+            List<Ship> ships = new List<Ship>();
+            if (cbxCarrier.Checked)
+            {                           
+                ships.Add(new Ship(ShipType.Carrier));         
+            }
+            if (cbxBattleShip.Checked)
+            {
+                ships.Add(new Ship(ShipType.Battleship));
+            }
+            if (cbxSubmarine.Checked)
+            {
+                ships.Add(new Ship(ShipType.Submarine));
+            }
+            if (cbxDestroyer1.Checked)
+            {
+                ships.Add(new Ship(ShipType.Destroyer));
+            }
+            if (cbxDestroyer2.Checked)
+            {
+                ships.Add(new Ship(ShipType.Destroyer));
+            }
+            return ships;
+        }
 
         #endregion
 
