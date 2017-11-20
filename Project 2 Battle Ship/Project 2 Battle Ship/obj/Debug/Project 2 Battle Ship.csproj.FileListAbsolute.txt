@@ -1,0 +1,10 @@
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\bin\Debug\Project 2 Battle Ship.exe.config
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\bin\Debug\Project 2 Battle Ship.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\bin\Debug\Project 2 Battle Ship.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\obj\Debug\Project 2 Battle Ship.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\obj\Debug\Project_2_Battle_Ship.Form1.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\obj\Debug\Project_2_Battle_Ship.Properties.Resources.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\obj\Debug\Project 2 Battle Ship.csproj.GenerateResource.Cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\obj\Debug\Project 2 Battle Ship.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\obj\Debug\Project 2 Battle Ship.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C# SCC\Project 2 Battle Ship\Project 2 Battle Ship\obj\Debug\Project 2 Battle Ship.pdb
