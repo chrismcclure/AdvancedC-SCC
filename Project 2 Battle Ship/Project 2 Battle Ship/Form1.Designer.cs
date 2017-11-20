@@ -42,17 +42,19 @@
             // 
             // pnlButtons
             // 
-            this.pnlButtons.Location = new System.Drawing.Point(112, 25);
+            this.pnlButtons.Location = new System.Drawing.Point(42, 10);
+            this.pnlButtons.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.pnlButtons.Name = "pnlButtons";
-            this.pnlButtons.Size = new System.Drawing.Size(1817, 1398);
+            this.pnlButtons.Size = new System.Drawing.Size(681, 586);
             this.pnlButtons.TabIndex = 0;
             // 
             // cbxCarrier
             // 
             this.cbxCarrier.AutoSize = true;
-            this.cbxCarrier.Location = new System.Drawing.Point(2051, 88);
+            this.cbxCarrier.Location = new System.Drawing.Point(769, 37);
+            this.cbxCarrier.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.cbxCarrier.Name = "cbxCarrier";
-            this.cbxCarrier.Size = new System.Drawing.Size(253, 36);
+            this.cbxCarrier.Size = new System.Drawing.Size(100, 17);
             this.cbxCarrier.TabIndex = 1;
             this.cbxCarrier.Text = "Carrier 5 Blocks";
             this.cbxCarrier.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@
             // cbxBattleShip
             // 
             this.cbxBattleShip.AutoSize = true;
-            this.cbxBattleShip.Location = new System.Drawing.Point(2051, 155);
+            this.cbxBattleShip.Location = new System.Drawing.Point(769, 65);
+            this.cbxBattleShip.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.cbxBattleShip.Name = "cbxBattleShip";
-            this.cbxBattleShip.Size = new System.Drawing.Size(294, 36);
+            this.cbxBattleShip.Size = new System.Drawing.Size(116, 17);
             this.cbxBattleShip.TabIndex = 2;
             this.cbxBattleShip.Text = "Battleship 4 Blocks";
             this.cbxBattleShip.UseVisualStyleBackColor = true;
@@ -70,9 +73,10 @@
             // cbxSubmarine
             // 
             this.cbxSubmarine.AutoSize = true;
-            this.cbxSubmarine.Location = new System.Drawing.Point(2051, 228);
+            this.cbxSubmarine.Location = new System.Drawing.Point(769, 96);
+            this.cbxSubmarine.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.cbxSubmarine.Name = "cbxSubmarine";
-            this.cbxSubmarine.Size = new System.Drawing.Size(305, 36);
+            this.cbxSubmarine.Size = new System.Drawing.Size(120, 17);
             this.cbxSubmarine.TabIndex = 3;
             this.cbxSubmarine.Text = "Submarine 3 Blocks";
             this.cbxSubmarine.UseVisualStyleBackColor = true;
@@ -80,9 +84,10 @@
             // cbxDestroyer1
             // 
             this.cbxDestroyer1.AutoSize = true;
-            this.cbxDestroyer1.Location = new System.Drawing.Point(2051, 302);
+            this.cbxDestroyer1.Location = new System.Drawing.Point(769, 127);
+            this.cbxDestroyer1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.cbxDestroyer1.Name = "cbxDestroyer1";
-            this.cbxDestroyer1.Size = new System.Drawing.Size(289, 36);
+            this.cbxDestroyer1.Size = new System.Drawing.Size(115, 17);
             this.cbxDestroyer1.TabIndex = 4;
             this.cbxDestroyer1.Text = "Destroyer 2 Blocks";
             this.cbxDestroyer1.UseVisualStyleBackColor = true;
@@ -90,9 +95,10 @@
             // cbxDestroyer2
             // 
             this.cbxDestroyer2.AutoSize = true;
-            this.cbxDestroyer2.Location = new System.Drawing.Point(2051, 382);
+            this.cbxDestroyer2.Location = new System.Drawing.Point(769, 160);
+            this.cbxDestroyer2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.cbxDestroyer2.Name = "cbxDestroyer2";
-            this.cbxDestroyer2.Size = new System.Drawing.Size(289, 36);
+            this.cbxDestroyer2.Size = new System.Drawing.Size(115, 17);
             this.cbxDestroyer2.TabIndex = 5;
             this.cbxDestroyer2.Text = "Destroyer 2 Blocks";
             this.cbxDestroyer2.UseVisualStyleBackColor = true;
@@ -100,25 +106,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(2045, 469);
+            this.label1.Location = new System.Drawing.Point(767, 197);
+            this.label1.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 32);
+            this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Ships Sunk";
             // 
             // rtbSunkShips
             // 
-            this.rtbSunkShips.Location = new System.Drawing.Point(2051, 540);
+            this.rtbSunkShips.Location = new System.Drawing.Point(769, 226);
+            this.rtbSunkShips.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.rtbSunkShips.Name = "rtbSunkShips";
-            this.rtbSunkShips.Size = new System.Drawing.Size(242, 352);
+            this.rtbSunkShips.Size = new System.Drawing.Size(93, 150);
             this.rtbSunkShips.TabIndex = 7;
             this.rtbSunkShips.Text = "";
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(2051, 928);
+            this.btnStart.Location = new System.Drawing.Point(769, 389);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(242, 48);
+            this.btnStart.Size = new System.Drawing.Size(91, 20);
             this.btnStart.TabIndex = 8;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -126,19 +135,21 @@
             // 
             // btnEndGame
             // 
-            this.btnEndGame.Location = new System.Drawing.Point(2051, 1002);
+            this.btnEndGame.Location = new System.Drawing.Point(769, 420);
+            this.btnEndGame.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnEndGame.Name = "btnEndGame";
-            this.btnEndGame.Size = new System.Drawing.Size(242, 48);
+            this.btnEndGame.Size = new System.Drawing.Size(91, 20);
             this.btnEndGame.TabIndex = 9;
             this.btnEndGame.Text = "End Game";
             this.btnEndGame.UseVisualStyleBackColor = true;
+            this.btnEndGame.Click += new System.EventHandler(this.btnEndGame_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(2483, 1567);
+            this.ClientSize = new System.Drawing.Size(990, 624);
             this.Controls.Add(this.btnEndGame);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.rtbSunkShips);
@@ -149,6 +160,7 @@
             this.Controls.Add(this.cbxBattleShip);
             this.Controls.Add(this.cbxCarrier);
             this.Controls.Add(this.pnlButtons);
+            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Battle Ship";

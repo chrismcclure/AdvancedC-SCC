@@ -14,7 +14,8 @@ namespace Project_2_Battle_Ship
 */
 
     #region Enum
-
+    
+     //List of all the ships.  Easier than strings and uses intellisense
     public enum ShipType 
     {
         Carrier,
@@ -80,8 +81,7 @@ namespace Project_2_Battle_Ship
         }
 
         private void SetVerticalAlignment()
-        {
-          
+        {          
             //Generates either 1 or 0. 
             //1 = vertical and 0 = horizontal   
             Vertical = rand.Next(0, 2) == 1;

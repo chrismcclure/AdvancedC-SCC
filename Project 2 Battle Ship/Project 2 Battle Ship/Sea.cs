@@ -20,6 +20,10 @@ namespace Project_2_Battle_Ship
         public List<Button> Buttons { get; private set; } //Should be accesable by the form, but not setable
         public List<Ship> Ships { get; private set; } //Should be accesable by the form, but not setable
 
+        public delegate void ShipSunkEventHandler(object source, Ship ship);
+
+        public event ShipSunkEventHandler ShipSunk;
+
         #endregion
 
 
@@ -30,7 +34,6 @@ namespace Project_2_Battle_Ship
         private static readonly Random rng = new Random();
 
         #endregion
-
 
 
         #region constructors
@@ -46,6 +49,28 @@ namespace Project_2_Battle_Ship
 
         #endregion
 
+        #region public methods
+
+        public void ShowGameBoard()
+        {
+            for (int i = 0; i < _numberOfButtons; i++)
+            {
+                //Comment out. This is for testing
+                if (DoesButtonHaveShip(i))
+                {
+                    Buttons[i].Text = "X";              
+                }
+                else
+                {
+                    Buttons[i].Text = "";
+                }
+
+                Buttons[i].Enabled = false;
+            }        
+        }
+        #endregion
+
+
         #region private methods
 
         //The hard part place the ships on the screen
@@ -55,7 +80,7 @@ namespace Project_2_Battle_Ship
             foreach (var ship in Ships)
             {                
                 //Create a list of purposed spots.  
-                List<int> purposedSpots = new List<int>();
+                List<int> possibleSpots = new List<int>();
 
                 do
                 {
@@ -63,32 +88,32 @@ namespace Project_2_Battle_Ship
                     int startingSpot = rng.Next(0, _numberOfButtons);
 
                     //Clear the list in the event this is not the first time through
-                    purposedSpots.Clear();
+                    possibleSpots.Clear();
 
                     //Start with the random spot
-                    purposedSpots.Add(startingSpot);
+                    possibleSpots.Add(startingSpot);
                
                     if (ship.Vertical)
                     {
                         for (int i = 0; i < ship.Spaces -1; i++)
                         {
-                            purposedSpots.Add(startingSpot += 20);
+                            possibleSpots.Add(startingSpot += 20);
                         }
                     }
                     else
                     {
                         for (int i = 0; i < ship.Spaces -1; i++)
                         {
-                            purposedSpots.Add(startingSpot += 1);
+                            possibleSpots.Add(startingSpot += 1);
                         }
                     }
                 }
                 //Check to see if the spots work, if not, the do it again
-                while (IsThePositionGood(purposedSpots, ship) == false);
+                while (IsThePositionGood(possibleSpots, ship) == false);
 
 
                 //It's good add it to the dictionary of ship positions and move on with life
-                foreach (var spot in purposedSpots)
+                foreach (var spot in possibleSpots)
                 {
                     _buttonsWithShips.Add(spot, ship.ShipClass.ToString());
                 }            
@@ -97,10 +122,10 @@ namespace Project_2_Battle_Ship
 
 
         //Long list of things to make sure the spots of the ships are good
-        private bool IsThePositionGood(List<int> purposedSpots, Ship ship)
+        private bool IsThePositionGood(List<int> possbileSpots, Ship ship)
         {               
 
-            foreach (var spot in purposedSpots)
+            foreach (var spot in possbileSpots)
             {
                 //If the spot is take OR is the spot is off the board
                 if (_buttonsWithShips.Keys.Contains(spot)  || spot > _numberOfButtons)
@@ -111,7 +136,7 @@ namespace Project_2_Battle_Ship
                 //prevent the ship from wrapping around the edges
                 //Make sure the ship is horizontal AND the spot doesn't divide by 20 AND it's not the last
                 //THEN the numbers are trying to wrap around the edge
-                if (ship.Vertical == false && (spot + 1) % 20 == 0 && purposedSpots.Last() != spot)
+                if (ship.Vertical == false && (spot + 1) % 20 == 0 && possbileSpots.Last() != spot)
                 {
                     return false;
                 }
@@ -134,16 +159,16 @@ namespace Project_2_Battle_Ship
                 //Make all the buttons and give them properties
                 Button button = new Button();
 
-                //Comment out. This is for testing
-                if (DoesButtonHaveShip(i))
-                {
-                    button.Text = "X";
-                }
-                else
-                {
-                    button.Text = "";
-                }
-             
+                //UNcomment to see all the ships when testing
+                //if (DoesButtonHaveShip(i))
+                //{
+                //    button.Text = "O";
+                //}
+                //else
+                //{
+                //    button.Text = "";
+                //}
+
                 button.Click += new EventHandler(MyHandler); // The button needs a click event handler. This wires up to the method MyHandler.                
                 button.Height = 22;
                 button.Width = 22;
@@ -180,14 +205,29 @@ namespace Project_2_Battle_Ship
             if (DoesButtonHaveShip(spotClicked))
             {
                 //Get the name of the ship in that spot 
-                var shipName = _buttonsWithShips.FirstOrDefault(x => x.Key == spotClicked).Value;
+                var shipName = _buttonsWithShips.First(x => x.Key == spotClicked).Value;
 
                 //Get the ship objects
-                var ship = Ships.FirstOrDefault(x => x.ShipClass.ToString() == shipName);     
+                var ship = Ships.First(x => x.ShipClass.ToString() == shipName);     
+
+                //Register hit for shit
                 ship.Hit();
-                MessageBox.Show($"You clicked on the {ship.ShipClass}.  Total Hits taken {ship.Hits}, hits left {ship.Spaces - ship.Hits}.  Sunk? : {ship.Sunk}");
+
                 clickedButton.BackColor = Color.Red;
 
+                //Did that sink the ship?  If so, call event
+                if (ship.Sunk)
+                {
+                    //Sent the ship to th UI to list
+                    OnShipSunk(ship);                    
+                }
+
+                //check to see if all the ships are sunk
+                if (Ships.All(x => x.Sunk == true))
+                {
+                    MessageBox.Show("The game is over! You sank all the ships.");
+                }
+               
             }
             else
             {
@@ -197,11 +237,23 @@ namespace Project_2_Battle_Ship
             clickedButton.Enabled = false;
             
         }
-
+        
 
         private bool DoesButtonHaveShip(int spot)
         {
-                return _buttonsWithShips.Keys.Contains(spot);          
+            //Check to see if a ship exists on this spot
+            return _buttonsWithShips.Keys.Contains(spot);          
+        }
+
+
+        protected virtual void OnShipSunk(Ship ship)
+        {
+            //Check to see if there are any subsribers
+            if(ShipSunk != null)
+            {
+                //Send the event
+                ShipSunk(this, ship);
+            }
         }
 
         #endregion

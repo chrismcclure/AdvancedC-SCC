@@ -11,14 +11,7 @@ using System.Windows.Forms;
 namespace Project_2_Battle_Ship
 {
     public partial class Form1 : Form
-    {
-
-
-        //TODO
-        //Display sunk ships on main form
-        //When all ships are sunk, end game
-        //Make end game button
-
+    {    
 
         #region class fields
 
@@ -40,23 +33,63 @@ namespace Project_2_Battle_Ship
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            pnlButtons.Controls.Clear();
+
+            //Clears the sunk ship list
+            rtbSunkShips.Text = string.Empty;
+
+            //Clears the game board
+            CleanUpUI();
 
             //Create a list of ships
             List<Ship> ships = MakeListOfShips();
 
             //Initalize sea class and throw the shps into the constructor
-            _sea = new Sea(ships);    
+            _sea = new Sea(ships);
+         
+            MakeBoard();
 
-            //Create buttons will all the propteries on the UI
-            pnlButtons.Controls.AddRange(_sea.Buttons.ToArray());      
-          
+            //Subscribe to the event for the duration of the game
+            _sea.ShipSunk += UpdateUIOnShipSunk;
+        }
+
+        private void btnEndGame_Click(object sender, EventArgs e)
+        {
+            //Unsubcribe at the end of the game
+            _sea.ShipSunk -= UpdateUIOnShipSunk;
+
+            CleanUpUI();
+
+            //Change the properties of the buttons on the UI
+            _sea.ShowGameBoard();
+
+            MakeBoard();
         }
 
         #endregion
 
 
         #region private methods
+
+        private void MakeBoard()
+        {
+                    
+            //Create buttons will all the propteries on the UI
+            pnlButtons.Controls.AddRange(_sea.Buttons.ToArray());
+
+        }
+
+        private void CleanUpUI()
+        {
+            //Clears all the buttson
+            pnlButtons.Controls.Clear();
+      
+        }
+
+        private void UpdateUIOnShipSunk(object source, Ship ship)
+        {
+            rtbSunkShips.Text += $"{ship.ShipClass} \n";
+        }
+
 
         private List<Ship> MakeListOfShips()
         {
@@ -87,5 +120,6 @@ namespace Project_2_Battle_Ship
 
         #endregion
 
+    
     }
 }
