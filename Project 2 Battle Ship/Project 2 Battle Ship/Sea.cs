@@ -174,7 +174,7 @@ namespace Project_2_Battle_Ship
                 button.Width = 22;
                 button.Name = "btnSpace" + i.ToString();
                 button.BackColor = Control.DefaultBackColor;
-                button.Font = new Font(button.Font.FontFamily, 5);
+                button.Font = new Font(button.Font.FontFamily, 8);
                 button.TabStop = false;
                 button.Tag = i;
 

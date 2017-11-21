@@ -1,0 +1,10 @@
+I:\CLSINFO\Programming\1434\Practice2\OldandNewStudents\OldandNewStudents\bin\Debug\OldandNewStudents.exe
+I:\CLSINFO\Programming\1434\Practice2\OldandNewStudents\OldandNewStudents\bin\Debug\OldandNewStudents.pdb
+I:\CLSINFO\Programming\1434\Practice2\OldandNewStudents\OldandNewStudents\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\CLSINFO\Programming\1434\Practice2\OldandNewStudents\OldandNewStudents\obj\x86\Debug\OldandNewStudents.exe
+I:\CLSINFO\Programming\1434\Practice2\OldandNewStudents\OldandNewStudents\obj\x86\Debug\OldandNewStudents.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\Practice 3 Student Lists\OldandNewStudents\bin\Debug\OldandNewStudents.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\Practice 3 Student Lists\OldandNewStudents\bin\Debug\OldandNewStudents.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\Practice 3 Student Lists\OldandNewStudents\obj\x86\Debug\OldandNewStudents.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\Practice 3 Student Lists\OldandNewStudents\obj\x86\Debug\OldandNewStudents.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\Practice 3 Student Lists\OldandNewStudents\obj\x86\Debug\OldandNewStudents.pdb
