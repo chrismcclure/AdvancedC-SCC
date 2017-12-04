@@ -1,0 +1,7 @@
+c:\users\chris\source\repos\Practice4-Zoo\Practice4-Zoo\bin\Debug\Practice4-Zoo.exe.config
+c:\users\chris\source\repos\Practice4-Zoo\Practice4-Zoo\bin\Debug\Practice4-Zoo.exe
+c:\users\chris\source\repos\Practice4-Zoo\Practice4-Zoo\bin\Debug\Practice4-Zoo.pdb
+c:\users\chris\source\repos\Practice4-Zoo\Practice4-Zoo\obj\Debug\Practice4-Zoo.csprojResolveAssemblyReference.cache
+c:\users\chris\source\repos\Practice4-Zoo\Practice4-Zoo\obj\Debug\Practice4-Zoo.csproj.CoreCompileInputs.cache
+c:\users\chris\source\repos\Practice4-Zoo\Practice4-Zoo\obj\Debug\Practice4-Zoo.exe
+c:\users\chris\source\repos\Practice4-Zoo\Practice4-Zoo\obj\Debug\Practice4-Zoo.pdb
