@@ -1,0 +1,16 @@
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\Products.mdf
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\Products_log.ldf
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\PizzaStore-Project.exe.config
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\PizzaStore-Project.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\PizzaStore-Project.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\obj\Debug\PizzaStore_Project.Form1.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\obj\Debug\PizzaStore_Project.Properties.Resources.resources
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\obj\Debug\PizzaStore-Project.csproj.GenerateResource.Cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\obj\Debug\PizzaStore-Project.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\obj\Debug\PizzaStore-Project.exe
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\obj\Debug\PizzaStore-Project.pdb
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\EntityFramework.dll
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\EntityFramework.xml
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\chris\Desktop\One Folder For All Things\SCC\Fall 2017\Advanced C#\PizzaStore-Project\PizzaStore-Project\obj\Debug\PizzaStore-Project.csprojResolveAssemblyReference.cache
