@@ -30,7 +30,6 @@ namespace PizzaStore_Project
 
             using (ProductsEntities db = new ProductsEntities())
             {
-
                 db.Invoices.Add(row);
                 db.SaveChanges();
             }                

@@ -84,6 +84,8 @@ namespace PizzaStore_Project
                 return new Salad();
             else if (rbCoolStuff.Checked)
                 return new Promotional();
+            else if (rbSpecials.Checked)
+                return new Special();
             MessageBox.Show("Please select an item before adding it to the order.");
             return null;
         }         
@@ -106,6 +108,7 @@ namespace PizzaStore_Project
             //Make a new order now
             order = new Order();
             UpdateUI();
+            MessageBox.Show("Thank you for your order.  It will be ready is 7 to 46 minutes.");
         }
     }
 }
